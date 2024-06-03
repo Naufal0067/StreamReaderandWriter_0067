@@ -11,5 +11,10 @@ int main ()
     try {
         array<int, 3> data = { 8, 4, 2};
         //pesan array integer 3 elemen
+        cout<<data.at(5)<<endl;
+    }
+    catch (exception& e) {
+        //penangkap menggunakan obyek exception
+        
     }
 }
